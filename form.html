@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRSTFORM</title>
+    <link rel="icon" type="image/png" href="images/fabicon.png">
+</head>
+
+<!--Under the method attribute in the html tag The GET keyword 
+    is for insensitive data and the POST keyword in for sensitive data-->
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+        <!--Form Username-->
+        <label for="Username">Username</label>
+        <input type="text" id="Username"placeholder="PatrickStar" minlength="6" maxlength="12" required><br>
+
+        <!--Form password-->
+        <label for="Password">Password</label>
+        <input type="password" id="Password" minlength="6" maxlength="12" required><br>
+
+        <!--Form email-->
+        <label for="Email">Email</label>
+        <input type="email" placeholder="IamUnderaRock@email.com"><br>
+
+        <!--Form telephone number-->
+        <label for="Phone">Phone</label>
+        <input type="tel" id="Phone" placeholder="123-456-78911" pattern="[0-9]{3}-[0-9]{3}-[0-9]{5}"><br>
+
+        <!--Form birthdate-->
+        <label for="bday">BirthDate</label>
+        <input type="date" id="bday"><br>
+
+        <!--Form quantity/number of things/items-->
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+        <!--Form Title and radiobutton usage-->
+        <label for="title">Title: </label>
+
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr" name="title">
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" value="Ms" name="title">
+        <label for="PhD">PhD.</label>
+        <input type="radio" id="PhD" value="PhD" name="title"><br>
+
+        <!--Form payment and dropdown menu-->
+        <label for="payment">Payment</label>
+        <select>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="giftcard">GiftCard</option>
+        </select><br>
+
+        <!--Form checkbox usage-->
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <!--Form Username-->
+        <label for="comment">Comment</label>
+        <textarea id="comment" rows="5" cols="10"></textarea><br>
+
+        <!--Form file submission and file type limitations-->
+        <label for="file">File</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+        
+
+
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>

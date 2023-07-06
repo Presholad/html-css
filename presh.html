@@ -2,11 +2,31 @@
 
 <html>
     <head>
-        <title>Lists and Bordering and Tables</title>
+        <title>HTML Practice</title>
         <link rel="icon" type="image/png" href="images/fabicon.png">
     </head>
 
     <body>
+
+        <!--Button Use-->
+            <!--Using a Button to take you to another html page-->
+            <a href="form.html" target="_blank">
+            <button style="font-size: 23px; background-color: grey; color: yellow; border-radius: 25px;">clickme for form </button>
+            </a><br>
+            
+            <!--Using a Button with JavaScript-->
+
+            <button onclick="doSomething()" style="font-size: 23px; background-color: grey; color: yellow; border-radius: 25px;">clickme to change below text</button>
+
+            <p id="greeting">Hello</p>
+
+            <script>
+                function doSomething(){
+                    document.getElementById("greeting").innerHTML = "Goodbye";
+                }
+            </script>
+
+        <!--span and div style examples-->
         <h1><span style="background-color:tomato">This is a span title</span></h1>
         <h1><div style="background-color: cyan;">This is a div title</div></h1>
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Form Practice</title>
+    <link rel="icon" type="image/png" href="images/fabicon.png">
+</head>
+
+<body>
+    <h1><span style="background-color: black ; color: azure;">School Survey Form</span></h1>
+    <p>Please enter your details</p>
+
+    <form action="ooo.php" method="post" enctype="multipart/form-data">
+        <label for="sname">Surname: </label>
+        <input type="text" minlength="2" maxlength="20" id="sname" required><br>
+
+        <label for="fname">FirstName: </label>
+        <input type="text" minlength="2" maxlength="20" id="fname" required><br>
+
+        <label for="title">Title: </label>
+
+        <label for="mr">Mr.</label>
+        <input type="radio" id="mr" value="Mr." name="title">
+        <label for="ms">Ms.</label>
+        <input type="radio" id="ms" value="Ms." name="title">
+        <label for="nonbinary">NonBinary.</label>
+        <input type="radio" id="mr" value="NonBinary." name="title"><br>
+        
+
+
+        <label for="password">Password: </label>
+        <input type="password" minlength="2" maxlength="20" id="password" required><br>
+
+        <label for="level">Level: </label>
+        <select name="Level" id="level">
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+            <option value="500">500</option>
+
+        </select>
+
+
+
+
+    </form>
+
+
+</body>
+</html>

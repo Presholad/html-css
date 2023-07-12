@@ -1,0 +1,18 @@
+Types of borders in CSS
+
+solid
+dashed
+dotted
+double
+grove
+ridge
+inset
+outset
+none
+
+shorthand to make border editing easier
+
+border: border-width border-style border-color
+
+SHADOWING OF TEXT
+text-shadow: horizontal offset verticaloffset blur color;

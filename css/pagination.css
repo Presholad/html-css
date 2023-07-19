@@ -8,7 +8,12 @@
     display: inline-block;
 }
 .pagination a.active{
-    background-color: green;
+    background-color: rgb(20, 249, 20);
     font-weight: bold;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: hsl(0, 0%, 76%);
     border-radius: 5px;
 }

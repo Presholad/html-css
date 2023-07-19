@@ -1,0 +1,10 @@
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+}
+
+/* overflow types (visible[does nothing], hidden[hides all excess text]
+scroll[adds a scroll bar, auto[adds a scrool bar if you need it*/
+
+/* makes use of the div box

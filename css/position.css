@@ -1,0 +1,50 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(214, 100%, 74%);
+    position: sticky;
+    top: 0px;
+    
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 85%, 62%);
+    position: absolute;
+    top: 50px;
+    left: 50px;    
+}
+
+
+/*attributes of the postion propety are;
+    relative = positionn relative to its normal postion 
+    fixed = postioned relative to the viewport (good for ads)
+    absolute = positioned relative to nearest ancestor
+    sticky = postionsed based on scroll position (basically the same as fixed only difference is the element has some space to itself before it is scrolled past)
+    static = default position for an element
+
+    (uses the top, left, right modifiers)
+*/
+
+
+/*[EXAMPLE OF ABSOULTE] box 2 is dependent on box 1
+hence box 1 is the ancestor
+
+#box1{
+width: 200px;
+height: 200px;
+background-color: hsl(214, 100%, 74%);
+position: relative;
+top: 100px;
+left: 100px;
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 85%, 62%);
+    position: absolute;
+    top: 50px;
+    left: 50px;    
+}

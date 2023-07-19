@@ -1,0 +1,13 @@
+#container{
+    border: 2px solid black;
+}
+
+#container ~ p{
+    background-color: hsl(60, 100%, 73%);
+}
+
+/* The different combinators are:
+      = desendant
+    > = child
+    ~ = general sibling
+    + = adjacent sibling 

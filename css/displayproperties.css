@@ -1,0 +1,25 @@
+div{
+    background-color: hsl(0, 100%, 75%);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+span{
+    background-color: hsl(204, 100%, 75%);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+
+/*span is inherently an inline element while div is a block element
+we use the display property to attach the characteristic
+we want to either span or div making them either block or inline
+
+/*in a block element you can eidt height or width
+cant do that in an inline
+
+/*so the common display propeties we have are: inline, block, inline block, none
+and we can use the visibility property to hide the element while it still takes space
